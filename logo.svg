@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="20%" stop-color="#7dd3fc"/>
+      <stop offset="40%" stop-color="#22d3ee"/>
+      <stop offset="80%" stop-color="#020617"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="75%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="40%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#020617"/>
+  <circle cx="256" cy="256" r="220" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="210" fill="url(#halo)" opacity="0.9"/>
+  <g transform="translate(132,146)">
+    <rect x="0" y="0" width="248" height="220" rx="64" fill="#020617" opacity="0.94"/>
+    <rect x="0.75" y="0.75" width="246.5" height="218.5" rx="63" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7"/>
+    <path d="M40 170C40 142 40 74 40 74C40 58 51 46 67 46H84C100 46 111 58 111 74V102C111 118 122 130 138 130H164C180 130 191 141 191 157V170" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M72 170V116C72 100 83 88 99 88H116C132 88 143 100 143 116V128" fill="none" stroke="#a855f7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="192" cy="70" r="10" fill="#22c55e"/>
+    <circle cx="72" cy="196" r="6" fill="#38bdf8"/>
+    <circle cx="208" cy="192" r="6" fill="#f97316"/>
+  </g>
+  <text x="256" y="454" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="72" font-weight="700" letter-spacing="-4" fill="#e5e7eb">hAI</text>
+</svg>
